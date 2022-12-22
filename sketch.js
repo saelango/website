@@ -34,3 +34,6 @@ function draw() {
   // ellipse((circleSize+spacing)*2, height - circleSize*1, circleSize, circleSize);
   // ellipse((circleSize+spacing)*3, height - circleSize*1, circleSize, circleSize);
 }
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
