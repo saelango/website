@@ -48,7 +48,7 @@ fontLoader.load(
     (font) => 
     {
         const textGeometry = new TextGeometry(
-            'Samantha Wang',
+            'Saranya Elangovan',
             {
                 font : font,
                 size: parameters.size, 
